@@ -1,9 +1,10 @@
 import { StyleSheet, Text, View } from "react-native";
+import Home from "./src/Home";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>PWA test using Expo</Text>
+      <Home />
     </View>
   );
 }
